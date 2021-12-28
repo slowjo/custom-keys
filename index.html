@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="content">
+            <div class="output">
+                <h2>You wrote:</h2>
+                <div class="output-field"></div>
+            </div>
+            <div class="input">
+                <h2>Write something</h1>
+                <div class="input-field"></div>
+            </div>
+        </div>
+        <div class="boards-container">
+            <div id="board1" class="board">
+                <div id="Q" class="key row-1">Q</div>
+                <div id="W" class="key row-1">W</div>
+                <div id="E" class="key row-1">E</div>
+                <div id="R" class="key row-1">R</div>
+                <div id="T" class="key row-1">T</div>
+                <div id="Z" class="key row-1">Z</div>
+                <div id="U" class="key row-1">U</div>
+                <div id="I" class="key row-1">I</div>
+                <div id="O" class="key row-1">O</div>
+                <div id="P" class="key row-1">P</div>
+                <div id="A" class="key row-2 row-2-first">A</div>
+                <div id="S" class="key row-2">S</div>
+                <div id="D" class="key row-2">D</div>
+                <div id="F" class="key row-2">F</div>
+                <div id="G" class="key row-2">G</div>
+                <div id="H" class="key row-2">H</div>
+                <div id="J" class="key row-2">J</div>
+                <div id="K" class="key row-2">K</div>
+                <div id="L" class="key row-2">L</div>
+                <div id="shift" class="key shift row-3 rev-col">&UpArrow;</div>
+                <div id="Y" class="key row-3 row-3-first">Y</div>
+                <div id="X" class="key row-3">X</div>
+                <div id="C" class="key row-3">C</div>
+                <div id="V" class="key row-3">V</div>
+                <div id="B" class="key row-3">B</div>
+                <div id="N" class="key row-3">N</div>
+                <div id="M" class="key row-3">M</div>
+                <div id="backs" class="key backs row3 rev-col">&larr;</div>
+                <div id="?123" class="key nums row4 rev-col">?123</div>
+                <div id="." class="key dot row4 rev-col">.</div>
+                <div id="space" class="key space row4">space</div>
+                <div id="," class="key komma row4 rev-col">,</div>
+                <div id="enter" class="key enter row4">&larrhk;</div>
+            </div>
+            <div id="board2" class="board no-show">
+                <div id="q" class="key row-1">q</div>
+                <div id="w" class="key row-1">w</div>
+                <div id="e" class="key row-1">e</div>
+                <div id="r" class="key row-1">r</div>
+                <div id="t" class="key row-1">t</div>
+                <div id="z" class="key row-1">z</div>
+                <div id="u" class="key row-1">u</div>
+                <div id="i" class="key row-1">i</div>
+                <div id="o" class="key row-1">o</div>
+                <div id="p" class="key row-1">p</div>
+                <div id="a" class="key row-2 row-2-first">a</div>
+                <div id="s" class="key row-2">s</div>
+                <div id="d" class="key row-2">d</div>
+                <div id="f" class="key row-2">f</div>
+                <div id="g" class="key row-2">g</div>
+                <div id="h" class="key row-2">h</div>
+                <div id="j" class="key row-2">j</div>
+                <div id="k" class="key row-2">k</div>
+                <div id="l" class="key row-2">l</div>
+                <div id="shift-2" class="key shift row-3 rev-col">&UpArrow;</div>
+                <div id="y" class="key row-3 row-3-first">y</div>
+                <div id="x" class="key row-3">x</div>
+                <div id="c" class="key row-3">c</div>
+                <div id="v" class="key row-3">v</div>
+                <div id="b" class="key row-3">b</div>
+                <div id="n" class="key row-3">n</div>
+                <div id="m" class="key row-3">m</div>
+                <div id="backs-2" class="key backs row3 rev-col">&larr;</div>
+                <div id="?123-2" class="key nums row4 rev-col">?123</div>
+                <div id=".-2" class="key dot row4 rev-col">.</div>
+                <div id="space-2" class="key space row4">space</div>
+                <div id=",-2" class="key komma row4 rev-col">,</div>
+                <div id="enter-2" class="key enter row4">&larrhk;</div>
+            </div>
+            <div id="board3" class="board no-show">
+                <div id="1" class="key row-1">1</div>
+                <div id="2" class="key row-1">2</div>
+                <div id="3" class="key row-1">3</div>
+                <div id="4" class="key row-1">4</div>
+                <div id="5" class="key row-1">5</div>
+                <div id="6" class="key row-1">6</div>
+                <div id="7" class="key row-1">7</div>
+                <div id="8" class="key row-1">8</div>
+                <div id="9" class="key row-1">9</div>
+                <div id="0" class="key row-1">0</div>
+                <div id="@" class="key row-2 row-2-first">@</div>
+                <div id="#" class="key row-2">#</div>
+                <div id="_" class="key row-2">_</div>
+                <div id="&" class="key row-2">&</div>
+                <div id="-" class="key row-2">-</div>
+                <div id="+" class="key row-2">+</div>
+                <div id="(" class="key row-2">(</div>
+                <div id=")" class="key row-2">)</div>
+                <div id="/" class="key row-2">/</div>
+                <div id="=\<" class="key shift row-3 rev-col">=\<</div>
+                <div id="*" class="key row-3 row-3-first">*</div>
+                <div id='"' class="key row-3">"</div>
+                <div id="'" class="key row-3">'</div>
+                <div id=":" class="key row-3">:</div>
+                <div id=";" class="key row-3">;</div>
+                <div id="!" class="key row-3">!</div>
+                <div id="?" class="key row-3">?</div>
+                <div id="backs" class="key backs row3 rev-col">&larr;</div>
+                <div id="ABC" class="key nums row4 rev-col">ABC</div>
+                <div id="." class="key dot row4 rev-col">.</div>
+                <div id="space" class="key space row4">space</div>
+                <div id="," class="key komma row4 rev-col">,</div>
+                <div id="enter-3" class="key enter row4">&larrhk;</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>

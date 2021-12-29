@@ -154,3 +154,24 @@ h1 {
     text-align: left;
     overflow-wrap: anywhere;
 }
+
+/* Blinky */
+.blinky {
+    background: black;
+    height: 1rem;
+    width: 3px;
+    display: inline-block;
+    animation: blink 900ms ease-in-out infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

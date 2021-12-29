@@ -3,7 +3,7 @@ const keyboard = document.querySelector('#board1');
 const keyboard2 = document.querySelector('#board2');
 const keyboard3 = document.querySelector('#board3');
 
-const inputField = document.querySelector('.input-field');
+const inputField = document.querySelector('.input-span');
 
 const output = document.querySelector('.output');
 const outputField = document.querySelector('.output-field');

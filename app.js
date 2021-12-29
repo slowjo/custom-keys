@@ -46,7 +46,7 @@ function handleClick (e) {
             } else {
                 keyboard2.classList.remove('no-show');
             }
-        } else if (e.target.id === 'space') {
+        } else if (e.target.id === 'space' || e.target.id === 'space-2' || e.target.id === 'space-3') {
             textInput += ' ';
             inputField.textContent = textInput;
         } else if (e.target.id === 'backs' || e.target.id === 'backs-2' || e.target.id === 'backs-3') {

@@ -51,9 +51,9 @@ h1 {
 
 .board {
     height: 100%;
-    background: rgb(209, 209, 209);
+    background: rgb(73, 73, 73);
     display: grid;
-    gap: 3px;
+    gap: 7px;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr;
     padding: 7px 3px;
@@ -65,10 +65,11 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
     border-radius: 10px;
-    background: white;
-    color: black;
+    background: rgb(49, 49, 49);
+    color: white;
+    box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+                2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .row-2 {
@@ -124,14 +125,22 @@ h1 {
 }
 
 .rev-col {
-    background: rgb(170, 170, 170);
+    background: rgb(59, 59, 59);
     /* color: white; */
 }
 
 /* dynamically added and removed classes */
 .touched {
-    background: black;
-    color: white;
+    /* background: black; */
+    /* color: white; */
+    color: #00fff1;
+    box-shadow: 
+                /* -1px -1px 3px rgba(255, 255, 255, 0.1), */
+                /* 2px 2px 6px rgba(0, 0, 0, 0.8), */
+                /* inset -2px -2px 10px rgba(255, 255, 255, 0.05), */
+                inset -2px -2px 5px rgba(255, 255, 255, 0.05),
+                /* inset 2px 2px 10px rgba(0, 0, 0, 0.5);  */
+                inset 2px 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .show {
